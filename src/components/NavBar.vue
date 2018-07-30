@@ -31,9 +31,11 @@
 <script>
 
 export default {
-  name: 'NavBar',
-  components: {
-    NavBar
-  }
+  name: 'NavBar'
 }
 </script>
+
+<style scoped>
+
+</style>
+
