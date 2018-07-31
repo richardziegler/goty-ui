@@ -4,13 +4,20 @@
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-        <b-navbar-brand href="#">Game of the Year</b-navbar-brand>
+        <router-link to="/">
+        <b-navbar-brand href="/">Game of the Year</b-navbar-brand>
+        </router-link>
 
         <b-collapse is-nav id="nav_collapse">
 
           <b-navbar-nav>
-            <b-nav-item href="#">Nominations</b-nav-item>
-            <b-nav-item href="#" disabled>Vote</b-nav-item>
+            <router-link to="/nominate">
+              <b-nav-item href="/nominate">Nominations</b-nav-item>
+            </router-link>
+            
+            <router-link to="/vote">
+              <b-nav-item href="/vote">Vote</b-nav-item>
+            </router-link>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->

@@ -5,6 +5,10 @@ import store from './store'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import Sidebar from './components/Sidebar'
+
+
+Vue.component('sidebar', Sidebar)
 
 Vue.use(BootstrapVue)
 
