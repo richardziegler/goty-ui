@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { BallotComponent } from './components/ballot/ballot.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { GotyMaterialModule } from './material';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BallotComponent
+    BallotComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    GotyMaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
