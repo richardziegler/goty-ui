@@ -1,0 +1,9 @@
+img {
+    height: 3rem;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(2, 50%);
+}

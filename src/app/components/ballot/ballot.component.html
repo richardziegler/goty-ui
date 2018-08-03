@@ -1,3 +1,6 @@
-<p>
-  ballot works!
-</p>
+<section>
+  <mat-card *ngFor="let game of mockData">
+    <img src="{{game.url}}" />
+    {{game.title}}
+  </mat-card>
+</section>
