@@ -1,6 +1,6 @@
 <template>
     <div class="navbar">
-        <b-navbar toggleable="md" type="dark" variant="secondary">
+        <b-navbar toggleable="md" type="dark" variant="secondary" id="navigation-bar">
 
         <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -28,6 +28,7 @@
             <b-nav-item href="#">Login</b-nav-item>
           </b-navbar-nav>
           </b-navbar-nav>
+          
 
         </b-collapse>
       </b-navbar>
@@ -40,9 +41,28 @@
 export default {
   name: 'NavBar'
 }
+
+
 </script>
 
 <style scoped>
+#navigation-bar {
+  box-shadow: none;
+  border: none;
+}
+
+.navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
 </style>
 
