@@ -1,4 +1,9 @@
 <mat-toolbar>
-  <span>Game of the Year</span>
+  <a routerLink="/"><span id="brand">Game of the Year</span></a>
+  <nav>
+    <a routerLink="/ballot"><button mat-button>Ballot</button></a>
+    <button mat-button>Vote</button>
+  </nav>
 </mat-toolbar>
-<app-ballot></app-ballot>
+
+<router-outlet></router-outlet>

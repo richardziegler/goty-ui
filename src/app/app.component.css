@@ -1,0 +1,16 @@
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.mat-button {
+    min-width: 1%;
+}
+
+#brand {
+    margin-right: 20px;
+}
