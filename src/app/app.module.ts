@@ -7,12 +7,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { GotyMaterialModule } from './material';
 import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './components/home/home.component';
+import { NominationFormComponent } from './components/nomination-form/nomination-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BallotComponent,
     HomeComponent,
+    NominationFormComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,9 @@
-import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule} from '@angular/material';
+import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule, MatFormFieldModule,
+MatInputModule} from '@angular/material';
 import { NgModule } from '@angular/core';
 
 @NgModule({
-  imports: [MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule],
-  exports: [MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule],
+  imports: [MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule, MatFormFieldModule, MatInputModule],
+  exports: [MatButtonModule, MatCheckboxModule, MatToolbarModule, MatCardModule, MatFormFieldModule, MatInputModule],
 })
 export class GotyMaterialModule { }

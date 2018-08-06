@@ -1,0 +1,15 @@
+mat-form-field {
+    width: 32%;
+}
+
+#form-contents {
+    margin: auto;
+    text-align: center;
+}
+
+i {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30%;
+    margin-top: 3%;
+}
