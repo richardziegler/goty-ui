@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BallotComponent } from './components/ballot/ballot.component';
@@ -21,6 +22,7 @@ import { NominationFormComponent } from './components/nomination-form/nomination
     BrowserAnimationsModule,
     GotyMaterialModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,4 +3,6 @@
     <img src="{{game.url}}" />
     {{game.title}}
   </mat-card>
+
+  <p *ngFor="let game of games">{{ game.title }}</p>
 </section>
