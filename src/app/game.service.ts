@@ -13,7 +13,6 @@ export class GameService {
   /** GET heroes from the server */
 getGames (): Observable<Game[]> {
   return this.http.get<Game[]>(this.gotyUrl);
-  console.log(this.gotyUrl);
 }
 
   constructor(
